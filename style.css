@@ -1,0 +1,48 @@
+h1{
+  color: white;
+  text-shadow: 5px, 5px, 20px white;
+}
+h2{
+  color:white;
+  text-shadow: 5px, 5px, 20px white;
+}
+body{
+  background-color: black;
+}
+#bookshelf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: static;
+  top: 0;
+  z-index: 0;
+}
+#sheila{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0px;
+  right: 500px;
+  left: 500px;
+  z-index: 1;
+}
+#BSleft{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0px;
+  left: 440px;
+  z-index: 2;
+}
+#BSright{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0px;
+  right: 440px;
+
+  z-index: 2;
+}
